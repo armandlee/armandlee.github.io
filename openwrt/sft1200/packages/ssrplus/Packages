@@ -1,0 +1,482 @@
+Package: luci-app-ssr-plus
+Version: 184-10
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, kcptun-client, ipt2socks, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan, v2ray-plugin, curl, xray-core
+Section: luci
+Architecture: all
+Installed-Size: 194348
+Filename: luci-app-ssr-plus_184-10_all.ipk
+Size: 194474
+SHA256sum: 8e0c327d9f457e596d8b33c2a90fcc9fe16adf8a22324a15950f5b357a9f9f41
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 184-10
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6549
+Filename: luci-i18n-ssr-plus-zh-cn_184-10_all.ipk
+Size: 7390
+SHA256sum: c2103f420d63d5793ac93a4a8174091865cb1f5cf528722049f2f19fd50c9ec4
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 104
+Filename: coreutils_8.32-6_mips_siflower.ipk
+Size: 947
+SHA256sum: 79c503f2892af1d948e008fff51200584a128cb00e0a5d22bd9f436acac75917
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 21471
+Filename: coreutils-base64_8.32-6_mips_siflower.ipk
+Size: 22233
+SHA256sum: 04c45331f8c5a2ab4a18cd10835ead979db82e153195103b1c6fbdf776aa3548
+Description:  Full version of standard GNU base64 utility.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: mips_siflower
+Installed-Size: 11552
+Filename: dns2socks_2.1-2_mips_siflower.ipk
+Size: 12353
+SHA256sum: 6289385abf65c5b12a220d8ae7706505ed3c67ea940c1004bd1a698127ba450b
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dnsmasq-full
+Version: 2.80-5
+Depends: libc, libubus, libnettle, kmod-ipt-ipset
+Provides: dnsmasq
+License: GPL-2.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 163381
+Filename: dnsmasq-full_2.80-5_mips_siflower.ipk
+Size: 164067
+SHA256sum: 6342344758e2f84fa1d24003ea4a7a47aa9bbee51342acb0262ad14d1254f06c
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and IPset, Conntrack support & NO_ID enabled by default.
+
+Package: ip-full
+Version: 5.15.0-2
+Depends: libc, libnl-tiny, libbpf
+Provides: ip
+Alternatives: 300:/sbin/ip:/usr/libexec/ip-full
+License: GPL-2.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 200235
+Filename: ip-full_5.15.0-2_mips_siflower.ipk
+Size: 200703
+SHA256sum: 25227c6af891e60494d186bf5fc1ff285c3b46523898f8a537cfc658812ff62f
+Description:  Routing control utility (full)
+
+Package: iptables-mod-tproxy
+Version: 1.8.2-2
+Depends: libc, iptables, kmod-ipt-tproxy
+License: GPL-2.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 2925
+Filename: iptables-mod-tproxy_1.8.2-2_mips_siflower.ipk
+Size: 3628
+SHA256sum: 767adc4a7fb4936b85f895a4c5d11d158d6bf520170681f299a17dd38e0ad565
+Description:  Transparent proxy iptables extensions.
+ 
+ Matches:
+ - socket
+ 
+ Targets:
+ - TPROXY
+ 
+
+Package: libuci-lua
+Version: 2019-05-17-f199b961-5
+Depends: libc, libuci, liblua
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 6560
+Filename: libuci-lua_2019-05-17-f199b961-5_mips_siflower.ipk
+Size: 7292
+SHA256sum: 5e0358a0e39646d1ed553b416481c4617b5f13f8d245fcf17c162453fc577b73
+Description:  Lua plugin for UCI
+
+Package: microsocks
+Version: 1.0.2-2
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 5561
+Filename: microsocks_1.0.2-2_mips_siflower.ipk
+Size: 6331
+SHA256sum: 8b784a9bd7119ac132fceb998bb1d9f4fff2cc51953b9f83b7ff724fc15cc96b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-2
+Depends: libc, libpthread
+Section: net
+Architecture: mips_siflower
+Installed-Size: 87594
+Filename: pdnsd-alt_1.2.9b-par-2_mips_siflower.ipk
+Size: 88514
+SHA256sum: 3159ec8d3f223abf9266857b9d8e52d18081b486987d979d0f34b440bcdbe592
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: mips_siflower
+Installed-Size: 3629
+Filename: tcping_0.3-1_mips_siflower.ipk
+Size: 4310
+SHA256sum: 8b75178fc66d4dd429e0df7b4e9722d916938731c4e4588f1832acb45a02f957
+Description:  tcping measures the latency of a tcp-connection
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 2487
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mips_siflower.ipk
+Size: 3207
+SHA256sum: 3548b2c9a2bf9a282b164d245dbb63082c2e547d0511aff131dfb4b5fed68454
+Description:  shadowsocksr-libev ssr-check
+
+Package: kcptun-client
+Version: 20210922-1
+Depends: libc, kcptun-config
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 2115147
+Filename: kcptun-client_20210922-1_mips_siflower.ipk
+Size: 2111607
+SHA256sum: 60ce16f52d9d60e5d3a843cf7811d8129a54cc6ef9057f235293ccb28a27de72
+Description:  kcptun is a Stable & Secure Tunnel Based On KCP with N:M Multiplexing.
+ This package only contains kcptun client.
+
+Package: kcptun-config
+Version: 20210922-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 1957
+Filename: kcptun-config_20210922-1_mips_siflower.ipk
+Size: 2768
+SHA256sum: c32133af33733b6144404f08c13ed980a871a607e8391c9717e0de1c200757d4
+Description:  Kcptun Config Scripts
+
+Package: ipt2socks
+Version: 1.1.3-2
+Depends: libc, libpthread, libuv
+License: AGPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 31073
+Filename: ipt2socks_1.1.3-2_mips_siflower.ipk
+Size: 31793
+SHA256sum: 9e7d4d960caf2d9a4a76cfa264994b99155f612bf6fdbf1e3cfbdd40f3fb7c47
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: libuv
+Version: 1.41.1-1
+Depends: libc, libpthread, librt
+License: MIT
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 63837
+Filename: libuv_1.41.1-1_mips_siflower.ipk
+Size: 64633
+SHA256sum: 1ed32a757b9142ed3ff776b7dab60fb2a6d06edf5e027e709c15b1fb323e423f
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 58452
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mips_siflower.ipk
+Size: 59182
+SHA256sum: 59c4c786bde7c05825831517ccafca30f52d177a172cffa48df1033aaf064f1b
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 52755
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mips_siflower.ipk
+Size: 53443
+SHA256sum: b597e39b9d29a65875e134c28abf08c01e548d10be663c1e42a8ef66b8429493
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 59877
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_mips_siflower.ipk
+Size: 60623
+SHA256sum: 58d196b341543953552c69d10c467dce4dda0ad6d85f1911caa5a5d54003b80a
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: mips_siflower
+Installed-Size: 28683
+Filename: simple-obfs_0.0.5-1_mips_siflower.ipk
+Size: 29401
+SHA256sum: bdec43331f65c2682cc53fa9e255e35bc1459607e3510c4b2a4e4efe03096d66
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 18144
+Filename: libudns_0.4-1_mips_siflower.ipk
+Size: 18914
+SHA256sum: 064114cb77efcf577cfba6045598764e43d2e4b18c1e710c205a32f352d80be8
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.12.5-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 2839517
+Filename: shadowsocks-rust-sslocal_1.12.5-1_mips_siflower.ipk
+Size: 2840527
+SHA256sum: dc97c36da4b455e5e84a160da76fe2b001c508c024049e746ae89e1c54826b66
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.12.5-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 1837054
+Filename: shadowsocks-rust-ssserver_1.12.5-1_mips_siflower.ipk
+Size: 1837936
+SHA256sum: f3995b82c695fb4fea5bcf168b932ae6d2faf188d83a1ae8c99ab994956931bf
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls, libpthread, libsodium, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: mips_siflower
+Installed-Size: 46512
+Filename: shadowsocks-libev-ss-local_3.3.5-1_mips_siflower.ipk
+Size: 47314
+SHA256sum: 46dbad65d0fc7a6ab3e884089fc83c1eb17ed04b9af4ac26eb580fe3ed7987d9
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+Architecture: mips_siflower
+Installed-Size: 41668
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_mips_siflower.ipk
+Size: 42448
+SHA256sum: 10b60ac277cda4adec74f28945d6640a2c804c7ab7b4f7be3127eea02c28a9b3
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls, libpthread, libsodium, libcares, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: mips_siflower
+Installed-Size: 51406
+Filename: shadowsocks-libev-ss-server_3.3.5-1_mips_siflower.ipk
+Size: 52044
+SHA256sum: 36af9350800ddf9718909b40715d2f60721f0aa9646fd73612b77f7bdefef624
+Description:  shadowsocks-libev ss-server
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp, libopenssl, boost, boost-system, boost-program_options, boost-date_time
+License: GPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 302175
+Filename: trojan_1.16.0-2_mips_siflower.ipk
+Size: 302658
+SHA256sum: 4e4b16361bd67aaf7631aed5317f8739c1314f84715d5066f93b5e35f34ab401
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: boost
+Version: 1.78.0-1
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 104
+Filename: boost_1.78.0-1_mips_siflower.ipk
+Size: 1213
+SHA256sum: bd2c642b2e0cb72ec78f3505483dbc6a243ff7d49857226bd6be9f1e921333e5
+Description:  This package provides the Boost v1.78.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - json
+ - locale
+ - log
+ - math
+ - nowide
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_78_0/
+
+Package: boost-date_time
+Version: 1.78.0-1
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 1040
+Filename: boost-date_time_1.78.0-1_mips_siflower.ipk
+Size: 1822
+SHA256sum: 23695ec4a3240b5517f65a0f43497245a4be53479bd2512d284e0c5991da63b2
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.78.0-1
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 79058
+Filename: boost-program_options_1.78.0-1_mips_siflower.ipk
+Size: 79816
+SHA256sum: e330202b9a73001be80de1974a5c05bb695148820de413a94fd6fd2612feb9be
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.78.0-1
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 1028
+Filename: boost-system_1.78.0-1_mips_siflower.ipk
+Size: 1807
+SHA256sum: 8cde8346b9de47d15c78286b84f48fdf538651ba3f254a04bef7b860a080fa31
+Description:  This package contains the Boost system library.
+
+Package: v2ray-plugin
+Version: 4.44.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 2712928
+Filename: v2ray-plugin_4.44.0-1_mips_siflower.ipk
+Size: 2714197
+SHA256sum: 4f4eb3bdbd278c8729ed1d0fecc7af8ab7378b165410b9c6d8e5d41ffb3d2cf8
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: xray-core
+Version: 1.5.2-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 3783373
+Filename: xray-core_1.5.2-1_mips_siflower.ipk
+Size: 3784930
+SHA256sum: 35d695f25dbff4d440fac6c658d5fcc835f5fb9909eb13da7aae4f2e4b6f989b
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: libstdcpp
+Version: 7.4.0-1
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Size: 372575
+Filename: libstdcpp_7.4.0-1_mips_siflower.ipk
+Size: 371321
+SHA256sum: c593dcf0eef9c3e2966635d23ef17fbe48711ee5c39c87716e7293865111c12c
+Description:  GNU Standard C++ Library v3
+
