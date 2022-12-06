@@ -1,0 +1,1264 @@
+Package: blkid
+Version: 2.33-1
+Depends: libc, libblkid, libuuid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 40694
+Filename: blkid_2.33-1_mips_siflower.ipk
+Size: 41504
+SHA256sum: caca52ac279207a42093c5eb417e2dcb69312d6329a2824ac2f915a33e59aa27
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: blockdev
+Version: 2.33-1
+Depends: libc, librt
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 19923
+Filename: blockdev_2.33-1_mips_siflower.ipk
+Size: 20697
+SHA256sum: d84848138cd4d54e213271cb3e0a4805ccfb0e1ec1d458c8ffa877632ffbe386
+Description:  The blockdev program is the command-line interface to call block device ioctls.
+
+Package: busybox
+Version: 1.29.3-3
+Depends: libc, jsonfilter
+Alternatives: 100:/usr/bin/flock:/bin/busybox, 100:/usr/bin/free:/bin/busybox, 100:/sbin/ip:/bin/busybox, 100:/bin/kill:/bin/busybox, 100:/usr/bin/pgrep:/bin/busybox, 100:/bin/ps:/bin/busybox, 100:/usr/bin/top:/bin/busybox, 100:/usr/bin/uptime:/bin/busybox
+Source: package/utils/busybox
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 257522
+Filename: busybox_1.29.3-3_mips_siflower.ipk
+Size: 257848
+SHA256sum: d45f085ca708c2435d4e05b07513514a39723ba8b7fccf798cf34c1148baaeda
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: ca-bundle
+Version: 20210119-1
+Depends: libc
+Provides: ca-certs
+Source: package/system/ca-certificates
+Section: base
+Architecture: all
+Installed-Size: 115934
+Filename: ca-bundle_20210119-1_all.ipk
+Size: 116722
+SHA256sum: 797788a20728687ee68443efefda33f50cdf9579326d39164a0f7e18fbaad3de
+Description:  System CA certificates as a bundle
+
+Package: curl
+Version: 7.63.0-1
+Depends: libc, libcurl
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: mips_siflower
+Installed-Size: 49064
+Filename: curl_7.63.0-1_mips_siflower.ipk
+Size: 49806
+SHA256sum: fce6ddf7361971c4c0c9a1cc8665e5e872f00bb2e068b0c79a8cd1a63ea32f68
+Description:  A client-side URL transfer utility
+
+Package: dnsmasq-full
+Version: 2.80-5
+Depends: libc, libubus, libnettle, kmod-ipt-ipset, libnetfilter-conntrack
+Provides: dnsmasq
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: mips_siflower
+Installed-Size: 163973
+Filename: dnsmasq-full_2.80-5_mips_siflower.ipk
+Size: 164618
+SHA256sum: 456d1e03fd7ddade4e1023922e56357b00e645acf3e8b741738bf6c3246581b7
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and IPset, Conntrack support & NO_ID enabled by default.
+
+Package: dnsmasq
+Version: 2.80-5
+Depends: libc, libubus
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: mips_siflower
+Installed-Size: 118274
+Filename: dnsmasq_2.80-5_mips_siflower.ipk
+Size: 119042
+SHA256sum: c2d403aa5b35daced65c11eaf33d00d8de2c12a7d939c7b514eb703670198c2a
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2017.75-9
+Depends: libc
+Alternatives: 100:/usr/bin/ssh:/usr/sbin/dropbear, 100:/usr/bin/scp:/usr/sbin/dropbear
+Source: package/network/services/dropbear
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: mips_siflower
+Installed-Size: 85240
+Filename: dropbear_2017.75-9_mips_siflower.ipk
+Size: 85980
+SHA256sum: c7cd3f5eb6a7fedc78e4a64ff7c28dfe113439f5f650b7837a4e21c16cb3f0af
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e2fsprogs
+Version: 1.44.3-1
+Depends: libc, libuuid, libext2fs
+Source: package/utils/e2fsprogs
+License: GPL-2.0
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 176023
+Filename: e2fsprogs_1.44.3-1_mips_siflower.ipk
+Size: 175639
+SHA256sum: a288d9554613e66ede8244b540028debb56b42315d5915c60aa5f729c4f4b90b
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: firewall
+Version: 2019-11-22-8174814a-3
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Source: package/network/config/firewall
+License: ISC
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 46578
+Filename: firewall_2019-11-22-8174814a-3_mips_siflower.ipk
+Size: 47442
+SHA256sum: 5c202e0cd4d3b50aa37ccec2a2dc496238db6c4e03c18b30534a3396836b0207
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: hostapd-common
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 8199
+Filename: hostapd-common_2019-08-08-ca8c2bd2-4_mips_siflower.ipk
+Size: 8991
+SHA256sum: 6ae194a11d50cfbb7b1ac9069a624e937bdf89c8470a5b67aff6eb6570937a37
+Description:  hostapd/wpa_supplicant common support files
+
+Package: hostapd-scripts
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 1645
+Filename: hostapd-scripts_2019-08-08-ca8c2bd2-4_mips_siflower.ipk
+Size: 2420
+SHA256sum: 3592217a2a350bcd8b54392c1bc75d34b68e7abd39648d43844759cc56d5f1c9
+Description:  This package contains some scripts support wds or repeater.
+
+Package: ip-full
+Version: 4.16.0-8
+Depends: libc, libnl-tiny, libcap
+Provides: ip
+Alternatives: 300:/sbin/ip:/sbin/ip-full
+Source: package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: mips_siflower
+Installed-Size: 174581
+Filename: ip-full_4.16.0-8_mips_siflower.ipk
+Size: 174959
+SHA256sum: 32fe8edac5a5210d4665ebfa93cb26b7e1dbab81720187e2ce079033d0902971
+Description:  Routing control utility (Full)
+
+Package: ipset
+Version: 7.1-1
+Depends: libc, kmod-ipt-ipset, libmnl, libipset
+Source: package/network/utils/ipset
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 33754
+Filename: ipset_7.1-1_mips_siflower.ipk
+Size: 34438
+SHA256sum: b647538b3344e430c63e7c14da6dc428db892e3bf3d0249868172ef5f55a2226
+Description:  IPset administration utility
+
+Package: iw
+Version: 4.14-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iw
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 34541
+Filename: iw_4.14-1_mips_siflower.ipk
+Size: 35344
+SHA256sum: f3458c19b05a11530e228c4cb57419ec89849d37166d8ea520ab8de25fc3f20d
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2018-07-25-c83a84af-2
+Depends: libc, libjson-c, libubox, libblobmsg-json
+Source: package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 6305
+Filename: jshn_2018-07-25-c83a84af-2_mips_siflower.ipk
+Size: 7113
+SHA256sum: 7b7cbaf7b2f5f407a053d2f63acc946235167cc69b0c7c85f23abdbd7aea0693
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox, libjson-c
+Source: package/utils/jsonfilter
+License: ISC
+Section: base
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 9967
+Filename: jsonfilter_2018-02-04-c7e938d6-1_mips_siflower.ipk
+Size: 10705
+SHA256sum: ca0422faccb947364406c8bf3d41bcda79c0ea20799d90ace4e237dcab74b4c5
+Description:  OpenWrt JSON filter utility
+
+Package: libblkid
+Version: 2.33-1
+Depends: libc, libuuid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 134476
+Filename: libblkid_2.33-1_mips_siflower.ipk
+Size: 135209
+SHA256sum: 4c8c1df8f49d857412b487dd81385c7b784021eec7322cd9ed381cb52f8b5d5f
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2018-07-25-c83a84af-2
+Depends: libc, libjson-c, libubox
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 4204
+Filename: libblobmsg-json_2018-07-25-c83a84af-2_mips_siflower.ipk
+Size: 4923
+SHA256sum: fbee864a49ed776868ea29b73209431a3b4a45b61ea850baaa084d2174466f82
+Description:  blobmsg <-> json conversion library
+
+Package: libcomerr
+Version: 1.44.3-1
+Depends: libc, libuuid
+Source: package/utils/e2fsprogs
+License: GPL-2.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 3773
+Filename: libcomerr_1.44.3-1_mips_siflower.ipk
+Size: 4474
+SHA256sum: 61965059603d93a08d121835eb422d0a1139d6c93cbd70f66ca1c7d99110443e
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
+Package: libcurl
+Version: 7.63.0-1
+Depends: libc, libmbedtls, ca-bundle
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: mips_siflower
+Installed-Size: 133740
+Filename: libcurl_7.63.0-1_mips_siflower.ipk
+Size: 134470
+SHA256sum: d39b1139009da8d3d0aa67f032f9cb22bbfa0fadee398258e882981445e12d8e
+Description:  A client-side URL transfer library
+
+Package: libext2fs
+Version: 1.44.3-1
+Depends: libc, libuuid, libblkid, libss, libcomerr
+Source: package/utils/e2fsprogs
+License: GPL-2.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 154020
+Filename: libext2fs_1.44.3-1_mips_siflower.ipk
+Size: 154568
+SHA256sum: adc9e992304bafea3b0a4c2b74dcfa462756e95ed6bce5043ecdd3b1c1f9f869
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libgmp
+Version: 6.1.2-1
+Depends: libc
+Source: package/libs/gmp
+License: GPL-2.0+
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 214986
+Filename: libgmp_6.1.2-1_mips_siflower.ipk
+Size: 215703
+SHA256sum: 61013e3e7412cd1ed1ee13a36a69867c934a46a060b731d20c1fa3a885dee1f3
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libipset
+Version: 7.1-1
+Depends: libc, kmod-ipt-ipset, libmnl
+Source: package/network/utils/ipset
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 42801
+Filename: libipset_7.1-1_mips_siflower.ipk
+Size: 43380
+SHA256sum: 2983eabddcc0531c65d3907a792af9c21145f2db73a8275e56832e74e8d93408
+Description:  IPset administration utility
+
+Package: libjson-c
+Version: 0.12.1-2
+Depends: libc
+Source: package/libs/libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 16241
+Filename: libjson-c_0.12.1-2_mips_siflower.ipk
+Size: 16959
+SHA256sum: d504e0bb96ed275f663621735fa084206a0373d58caeaba2e718e760a54d029f
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2018-07-25-c83a84af-2
+Depends: libc, libubox
+Source: package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 5561
+Filename: libjson-script_2018-07-25-c83a84af-2_mips_siflower.ipk
+Size: 6278
+SHA256sum: ce0e41f96b5360d909434608856a2a9469c3a6148d30bf667435792006dd9c2d
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 77937
+Filename: liblua_5.1.5-1_mips_siflower.ipk
+Size: 78612
+SHA256sum: 1aa993b032505258e55d1dc52bece9ac4a7af6d91e6a5d6cd61f763dacc82522
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls
+Version: 2.16.4-1
+Depends: libc
+Source: package/libs/mbedtls
+License: GPL-2.0+
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 172260
+Filename: libmbedtls_2.16.4-1_mips_siflower.ipk
+Size: 172858
+SHA256sum: 36751b2b605e12c5bfccc7a37c6e55e5de598ebda7e8f7f81d810267f4e10d71
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl
+Version: 1.0.4-1
+Depends: libc
+Source: package/libs/libmnl
+License: LGPL-2.1+
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 5735
+Filename: libmnl_1.0.4-1_mips_siflower.ipk
+Size: 6939
+SHA256sum: 35237b4d314c7b79d371094d102736b1358ce054690a15dd0ba7d09a023f28ad
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncurses
+Version: 6.1-1
+Depends: libc, terminfo
+Provides: libncursesw
+Source: package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 165071
+Filename: libncurses_6.1-1_mips_siflower.ipk
+Size: 163184
+SHA256sum: 094ce5ff1f9faccd8bdc8a8e05562539fb1681c14bce2b429151bd0a215e30c0
+Description:  Terminal handling library (Unicode)
+
+Package: libnetfilter-conntrack
+Version: 2017-07-25-e8704326-1
+Depends: libc, libnfnetlink, kmod-nf-conntrack-netlink, libmnl
+Source: package/libs/libnetfilter-conntrack
+License: GPL-2.0+
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 36917
+Filename: libnetfilter-conntrack_2017-07-25-e8704326-1_mips_siflower.ipk
+Size: 37906
+SHA256sum: 5894ea252f9e34c1b046e4c167dbcd21d70d6aa4a8c0d1c74175cfb6d0bc28b1
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
+Package: libnetfilter-cthelper
+Version: 1.0.0-1
+Depends: libc, libmnl
+Source: package/libs/libnetfilter-cthelper
+License: GPL-2.0+
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 3946
+Filename: libnetfilter-cthelper_1.0.0-1_mips_siflower.ipk
+Size: 4728
+SHA256sum: 582b558a2702ac78ebe3f8f99d1947776c8e7b9a6456cd9344f13800cfb309b2
+Description:  libnetfilter_cthelper is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking helpers. 
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-cttimeout
+Version: 1.0.0-1
+Depends: libc, libmnl
+Source: package/libs/libnetfilter-cttimeout
+License: GPL-2.0+
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 4093
+Filename: libnetfilter-cttimeout_1.0.0-1_mips_siflower.ipk
+Size: 4871
+SHA256sum: 55e87525a57342ff2d6d100fb14032c9a900a2cdeb71094f31ffb3401a05dc16
+Description:  libnetfilter_cttimeout is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking timeout handling.
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-queue
+Version: 2017-06-27-601abd1c-1
+Depends: libc, libmnl, libnfnetlink
+Source: package/libs/libnetfilter-queue
+License: GPL-2.0+
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 8543
+Filename: libnetfilter-queue_2017-06-27-601abd1c-1_mips_siflower.ipk
+Size: 9352
+SHA256sum: 3276e645aa11a734dc67a23a576cf8b0a28fd0ff7d9be3a7788cd557346a6689
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table.
+ This library is currently used by conntrack-tools.
+
+Package: libnettle
+Version: 3.4.1-1
+Depends: libc, libgmp
+Source: package/libs/nettle
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 259178
+Filename: libnettle_3.4.1-1_mips_siflower.ipk
+Size: 259315
+SHA256sum: 3a81597ea138e60dc713b1e9fcb26e96dd71ebe3b04f96504927da085f607152
+Description:  GNU crypto library
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+Source: package/libs/libnfnetlink
+License: GPL-2.0+
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 9409
+Filename: libnfnetlink_1.0.1-1_mips_siflower.ipk
+Size: 10298
+SHA256sum: a0d31be5df517c0c3bd69f51c87fdde41ad49f0e7085bb0c24c72545452f3ece
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnl-core
+Version: 3.4.0-1
+Depends: libc, libpthread
+Source: package/libs/libnl
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 37326
+Filename: libnl-core_3.4.0-1_mips_siflower.ipk
+Size: 37927
+SHA256sum: 04d7f1fbb7c1f5229be96443f449060d7e3382e8b6f80aae0aeba1e2e97f44e9
+Description:  Common code for all netlink libraries
+
+Package: libnl-genl
+Version: 3.4.0-1
+Depends: libc, libnl-core
+Source: package/libs/libnl
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 7475
+Filename: libnl-genl_3.4.0-1_mips_siflower.ipk
+Size: 8184
+SHA256sum: fc4332384c1c5d16680c8326de26fe38411b5fb72fbe75152fe819dd5b577ef8
+Description:  Generic Netlink Library Functions
+
+Package: libnl-nf
+Version: 3.4.0-1
+Depends: libc, libnl-route
+Source: package/libs/libnl
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 24337
+Filename: libnl-nf_3.4.0-1_mips_siflower.ipk
+Size: 24911
+SHA256sum: ee638061594c1f17b2f95ca1a5b2b90d53f2d454656de478227f85a0ef80f2cd
+Description:  Netfilter Netlink Library Functions
+
+Package: libnl-route
+Version: 3.4.0-1
+Depends: libc, libnl-core
+Source: package/libs/libnl
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 134226
+Filename: libnl-route_3.4.0-1_mips_siflower.ipk
+Size: 134056
+SHA256sum: 40f8f9a48cf2285f0127daa05260e2ca27f60846c36032ab557eee3d82209efb
+Description:  Routing Netlink Library Functions
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+Source: package/libs/libnl-tiny
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 14053
+Filename: libnl-tiny_0.1-5_mips_siflower.ipk
+Size: 14778
+SHA256sum: db6139b60c4d751eecbdf5c174b306f61c73a17e03e9ea5e146af01b6af74ec5
+Description:  This package contains a stripped down version of libnl
+
+Package: libnl
+Version: 3.4.0-1
+Depends: libc, libnl-genl, libnl-route, libnl-nf
+Source: package/libs/libnl
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 105
+Filename: libnl_3.4.0-1_mips_siflower.ipk
+Size: 856
+SHA256sum: d85c6470a05b54e19a243f9981add3a3d28416217cfc116d8cddf8675472435e
+Description:  Socket handling, connection management, sending and receiving of data,
+ message construction and parsing, object caching system, etc.
+
+Package: libopenssl
+Version: 1.0.2p-1
+Depends: libc
+Source: package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 714987
+Filename: libopenssl_1.0.2p-1_mips_siflower.ipk
+Size: 709954
+SHA256sum: 3f136be356c809d169d91570c8973b3b86c7cae3d59138abfc87cd0da609aa51
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap
+Version: 1.9.0-1
+Depends: libc
+Source: package/libs/libpcap
+License: BSD-3-Clause
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 98250
+Filename: libpcap_1.9.0-1_mips_siflower.ipk
+Size: 98943
+SHA256sum: 4747edb6d32c31dd762e7691a85581c4fe654ea9da48468c96f630de2fec5e1f
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libss
+Version: 1.44.3-1
+Depends: libc, libcomerr
+Source: package/utils/e2fsprogs
+License: GPL-2.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 8113
+Filename: libss_1.44.3-1_mips_siflower.ipk
+Size: 8849
+SHA256sum: 989100927c0fbfa2e0bea25d7812722e5e7cabc0467a93d59d31ed60f9ac5241
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
+Package: libubox
+Version: 2018-07-25-c83a84af-2
+Depends: libc
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 21384
+Filename: libubox_2018-07-25-c83a84af-2_mips_siflower.ipk
+Size: 22096
+SHA256sum: ce3fce2532d5341c92a5f8af1ad11770d6e1e6e2742e2f79c4323f6f87a8bd37
+Description:  Basic utility library
+
+Package: libubus
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 10750
+Filename: libubus_2018-10-06-221ce7e7-1_mips_siflower.ipk
+Size: 11500
+SHA256sum: 54c8551c6763d9c55fd7a516f0afdc70b4cabb86209adc18f60cca90b5cf5da8
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2018-08-11-4c8b4d6e-1
+Depends: libc, libuci, liblua
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 6559
+Filename: libuci-lua_2018-08-11-4c8b4d6e-1_mips_siflower.ipk
+Size: 7291
+SHA256sum: b06f596f6ede33969f752a3435c2bc80cc22d3e771b79ce90125392b4998e03c
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2018-08-11-4c8b4d6e-1
+Depends: libc, libubox
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 17814
+Filename: libuci_2018-08-11-4c8b4d6e-1_mips_siflower.ipk
+Size: 18549
+SHA256sum: b964e8f733b10452b8b7047e16e6298cc80aec096cd223200ba0b0a60f34e505
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient
+Version: 2018-11-24-3ba74ebc-1
+Depends: libc, libubox
+Source: package/libs/uclient
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 10198
+Filename: libuclient_2018-11-24-3ba74ebc-1_mips_siflower.ipk
+Size: 10926
+SHA256sum: 1652668f69971a1d21099d26037408a4463e5008ea67d0efd62247a626e216ee
+Description:  HTTP/1.1 client library
+
+Package: libusb-1.0
+Version: 1.0.22-1
+Depends: libc, libpthread, librt
+Source: package/libs/libusb
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 28311
+Filename: libusb-1.0_1.0.22-1_mips_siflower.ipk
+Size: 29117
+SHA256sum: 4e32bfed3d4daed4901b0a1b94057d044c28e4ae4a92ce8045a312082795942c
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libustream-openssl
+Version: 2018-07-30-23a3f283-1
+Depends: libc, libubox, libopenssl
+Source: package/libs/ustream-ssl
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 3964
+Filename: libustream-openssl_2018-07-30-23a3f283-1_mips_siflower.ipk
+Size: 4690
+SHA256sum: e67d9e692164987c61f0caecdd99fc3273cd68a0bb783b6ec4f9e7462f0cc58a
+Description:  ustream SSL Library (openssl)
+
+Package: libuuid
+Version: 2.33-1
+Depends: libc, librt
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 13084
+Filename: libuuid_2.33-1_mips_siflower.ipk
+Size: 13929
+SHA256sum: 836da2ca22c8d59453e2ede9431067ded6ce591b8c5e3c5b832ff9dc8f3707dd
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logd
+Version: 2018-12-18-876c7f5b-1
+Depends: libc, libubox, libubus, libblobmsg-json
+Source: package/system/ubox
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 10275
+Filename: logd_2018-12-18-876c7f5b-1_mips_siflower.ipk
+Size: 11009
+SHA256sum: 992094843d35e650ee1e20a291184418f2d2e521b63905305a0591a58829bcb8
+Description:  OpenWrt system log implementation
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 4825
+Filename: lua_5.1.5-1_mips_siflower.ipk
+Size: 5657
+SHA256sum: 044010da14ca81427f8c1114e8041c0b361883c37905894734d28780612a0f7c
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: netifd
+Version: 2018-12-16-2750ce2e-1
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Source: package/network/config/netifd
+License: GPL-2.0
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 70801
+Filename: netifd_2018-12-16-2750ce2e-1_mips_siflower.ipk
+Size: 71524
+SHA256sum: 13c458a1ebde56af3e786a2f9eec1b51217d8d6b3b5af4e726160f08f48bea4e
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: odhcp6c
+Version: 2018-07-14-67ae6a71-16
+Depends: libc, libubox
+Source: package/network/ipv6/odhcp6c
+License: GPL-2.0
+Section: net
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: mips_siflower
+Installed-Size: 26538
+Filename: odhcp6c_2018-07-14-67ae6a71-16_mips_siflower.ipk
+Size: 27205
+SHA256sum: 8c9689c9afd6b2c891d028a0aad60ffd4d42a226f71a8090e34a5bb49b9bea83
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2018-12-12-2d2a3b84-3
+Depends: libc, libubox, libuci, libubus, libnl-tiny
+Source: package/network/services/odhcpd
+License: GPL-2.0
+Section: net
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: mips_siflower
+Installed-Size: 33518
+Filename: odhcpd-ipv6only_2018-12-12-2d2a3b84-3_mips_siflower.ipk
+Size: 34494
+SHA256sum: 92a7828a9073f3f7484f4c8c705304517d9f61fbfd3d808def035f5ad077f2ab
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openssl-util
+Version: 1.0.2p-1
+Depends: libc, libopenssl
+Source: package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 200309
+Filename: openssl-util_1.0.2p-1_mips_siflower.ipk
+Size: 199953
+SHA256sum: 51890d0760a05bf42bcabfc5ef842d10485f1fd38284e433320f10e55732ca87
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: openwrt-keyring
+Version: 2018-05-18-103a32e9-1
+Depends: libc
+Provides: lede-keyring
+Source: package/system/openwrt-keyring
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 1155
+Filename: openwrt-keyring_2018-05-18-103a32e9-1_mips_siflower.ipk
+Size: 1933
+SHA256sum: f067a5a026cf04dcec6807a09c465d60758639f1af6e78f1fad6993ba634d4d4
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2017-12-07-3b417b9f-2
+Depends: libc, uclient-fetch, libpthread, libubox
+Source: package/system/opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Essential: yes
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 68928
+Filename: opkg_2017-12-07-3b417b9f-2_mips_siflower.ipk
+Size: 69898
+SHA256sum: 627254b169c14616233813ed8a538b0d7c67d02a4e781e406516048ea0aa3c54
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-14
+Depends: libc, kmod-pppoe
+Source: package/network/services/ppp
+License: BSD-4-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 9975
+Filename: ppp-mod-pppoe_2.4.7-14_mips_siflower.ipk
+Size: 10752
+SHA256sum: d53ca1e91e916b65b2a97b1833c0508d6bf26563463e6eb34f6cced644283686
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.7-14
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+License: BSD-4-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 113822
+Filename: ppp_2.4.7-14_mips_siflower.ipk
+Size: 114655
+SHA256sum: 8133f42c3c992bc74e84776338a1704c1d184c835f8dfa0fa3d0ef0d1827e8db
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: procd
+Version: 2018-11-23-d6673547-1
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Source: package/system/procd
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 39186
+Filename: procd_2018-11-23-d6673547-1_mips_siflower.ipk
+Size: 39905
+SHA256sum: 3b5573dc54f5b9c4a3aba71792b1615666343f45d63e675dd1f25a5bd052d3b8
+Description:  OpenWrt system process manager
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: package/network/utils/resolveip
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 1850
+Filename: resolveip_2_mips_siflower.ipk
+Size: 2727
+SHA256sum: d70db7c4c348a6e3ed45e3858b7b2decd57636385591e9a31fab9f306f272266
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: rpcd-mod-file
+Version: 2018-11-28-3aa81d0d-1
+Depends: libc, libubus, libubox, rpcd
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 6134
+Filename: rpcd-mod-file_2018-11-28-3aa81d0d-1_mips_siflower.ipk
+Size: 6894
+SHA256sum: ce8b9d44ea5836a94da0f35d34d09c62c216bea415f37d636fa1ee3ae4a40eaf
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2018-11-28-3aa81d0d-1
+Depends: libc, libubus, libubox, rpcd, libiwinfo
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 6318
+Filename: rpcd-mod-iwinfo_2018-11-28-3aa81d0d-1_mips_siflower.ipk
+Size: 7131
+SHA256sum: 5cf31bfce51d228381f9ffcc1ae338be13f4801f3c600bcce15eae6ae2681e6e
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd
+Version: 2018-11-28-3aa81d0d-1
+Depends: libc, libubus, libubox, libuci, libblobmsg-json
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_siflower
+Installed-Size: 19951
+Filename: rpcd_2018-11-28-3aa81d0d-1_mips_siflower.ipk
+Size: 20729
+SHA256sum: 294f2a20c603f9df791cbffc346871e3ba7840b3ab3d3e80a7c0bf5e38f6bb96
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: rt2800-usb-firmware
+Version: 2018-12-16-211de167-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 2937
+Filename: rt2800-usb-firmware_2018-12-16-211de167-1_mips_siflower.ipk
+Size: 3649
+SHA256sum: f6f601ebd425fbfe618854e010120369ecf2aa5761dcc6283fcf3aa38ab40bf0
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: swconfig
+Version: 12
+Depends: libc, libuci, libnl-tiny
+Source: package/network/config/swconfig
+License: GPL-2.0
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 9935
+Filename: swconfig_12_mips_siflower.ipk
+Size: 10681
+SHA256sum: f723f8b03c7ba8ef5854e6e29ea52de0bbbb9e7a63fd3434011cc7239186202f
+Description:  Switch configuration utility
+
+Package: terminfo
+Version: 6.1-1
+Depends: libc
+Source: package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 6235
+Filename: terminfo_6.1-1_mips_siflower.ipk
+Size: 6883
+SHA256sum: b7490a7ffaa490bd95491d1031028723ea62df70066b1ec02f66f8a6ff08b936
+Description:  Terminal Info Database (ncurses)
+
+Package: ubox
+Version: 2018-12-18-876c7f5b-1
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Source: package/system/ubox
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 16579
+Filename: ubox_2018-12-18-876c7f5b-1_mips_siflower.ipk
+Size: 17318
+SHA256sum: 787dba59736e8356755237eec8aae895266eb599f642be561bd3a01308dc48c8
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubus, libblobmsg-json, ubusd
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 5592
+Filename: ubus_2018-10-06-221ce7e7-1_mips_siflower.ipk
+Size: 6319
+SHA256sum: 8972d39f3068f0d291b8ce6b155e6e1ec19c048afcb557d7cddd13b3883aff51
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubox, libblobmsg-json
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 10925
+Filename: ubusd_2018-10-06-221ce7e7-1_mips_siflower.ipk
+Size: 11675
+SHA256sum: 974143686128eeb9cccf5cebaf1fac64bda52d56b022e1be8b17acfa5f075065
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2018-08-11-4c8b4d6e-1
+Depends: libc, libuci
+Source: package/system/uci
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 7077
+Filename: uci_2018-08-11-4c8b4d6e-1_mips_siflower.ipk
+Size: 7852
+SHA256sum: 6167887ad1881757b03798d65497bb843a74943e3aac4fe528ca9ee5a1baa7d1
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.4-3
+Depends: libc
+Source: package/libs/uclibc++
+License: LGPL-2.1+
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 70010
+Filename: uclibcxx_0.2.4-3_mips_siflower.ipk
+Size: 70640
+SHA256sum: f44536a0d317d76c466feede80f4513c213ad85eb949df7e790b4eb432cfb0fd
+Description:  C++ library for embedded systems
+
+Package: uclient-fetch
+Version: 2018-11-24-3ba74ebc-1
+Depends: libc, libuclient
+Source: package/libs/uclient
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 7331
+Filename: uclient-fetch_2018-11-24-3ba74ebc-1_mips_siflower.ipk
+Size: 8105
+SHA256sum: ebc9a7b269e7438e13e0f3e0d016ae05aef83407dc20380009331bf2c89bafa5
+Description:  Tiny wget replacement using libuclient
+
+Package: usb-modeswitch
+Version: 2017-12-19-f40f84c2-2
+Depends: libc, libubox, libblobmsg-json, libusb-1.0
+Source: package/utils/usbmode
+License: GPL-2.0
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 13060
+Filename: usb-modeswitch_2017-12-19-f40f84c2-2_mips_siflower.ipk
+Size: 13801
+SHA256sum: 19b355e69d076194b027b366f0a623b2b21d2e1e7d18726523ead6c520cb7e3a
+Description:  USB mode switching utility
+
+Package: usign
+Version: 2015-07-04-ef641914-1
+Depends: libc, libubox
+Source: package/system/usign
+License: ISC
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 11933
+Filename: usign_2015-07-04-ef641914-1_mips_siflower.ipk
+Size: 12684
+SHA256sum: ad32fc7211ada92df98e62e4007c61cd5905b980b120561daa6323e99c2fbd0b
+Description:  OpenWrt signature verification utility
+
+Package: wireless-regdb
+Version: 2017-10-20-4343d359
+Depends: libc
+Source: package/firmware/wireless-regdb
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 1847
+Filename: wireless-regdb_2017-10-20-4343d359_mips_siflower.ipk
+Size: 2580
+SHA256sum: 52c710136bcc2d445252e526301696d946048d529e97a64e809fb77689e55cba
+Description:  Wireless Regulatory Database
+
+Package: wpa-cli
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 26860
+Filename: wpa-cli_2019-08-08-ca8c2bd2-4_mips_siflower.ipk
+Size: 27608
+SHA256sum: 2110de7a7057dc02222fc4e352e725cc73fbe899c6ad78eec1183125897c8983
+Description:  WPA Supplicant command line control utility
+
+Package: wpad-openssl
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc, libnl-tiny, hostapd-common, libubus, libuci, libopenssl
+Conflicts: hostapd, hostapd-basic, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-wolfssl, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-wolfssl, wpad-mini
+Provides: hostapd, wpa-supplicant
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 527776
+Filename: wpad-openssl_2019-08-08-ca8c2bd2-4_mips_siflower.ipk
+Size: 526924
+SHA256sum: 9157cc03627eae1615b927ed5c7ffd556aaa7b136b1822a633d520e5af64aebd
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator and Supplicant
+
+Package: wwan
+Version: 2014-07-17-1
+Depends: libc
+Source: package/network/utils/wwan
+License: GPL-2.0
+Section: net
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 9743
+Filename: wwan_2014-07-17-1_mips_siflower.ipk
+Size: 9524
+SHA256sum: 084b1e863c383950f84e3148c86d1e26142b98e66500ce0ca7762b5e31d99658
+Description:  Generic OpenWrt 3G/4G proto handler
+
+Package: zlib
+Version: 1.2.11-2
+Depends: libc
+Source: package/libs/zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 42461
+Filename: zlib_1.2.11-2_mips_siflower.ipk
+Size: 43247
+SHA256sum: 922b97d76a00ef015210635376accc7ccee943953d8ed5de4afcea9d80443b18
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+

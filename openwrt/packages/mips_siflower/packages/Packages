@@ -1,0 +1,131 @@
+Package: coreutils-base64
+Version: 8.23-4
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 21333
+Filename: coreutils-base64_8.23-4_mips_siflower.ipk
+Size: 22037
+SHA256sum: e41399d9318689b10ac95cc0906d55745e0a488dbe523b36e01ba90c799d33a7
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils
+Version: 8.23-4
+Depends: libc
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 105
+Filename: coreutils_8.23-4_mips_siflower.ipk
+Size: 917
+SHA256sum: 9061acc2318befef50a60bcbe85ef7ed77c34dda39d06b0fbac5dee62a02fc8d
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: libcap
+Version: 2.25-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 6291
+Filename: libcap_2.25-2_mips_siflower.ipk
+Size: 6982
+SHA256sum: 3929fca165b09cfcac5bcdb684c6299a93fb196378717d0e3ab2f5395f7f7257
+Description:  Linux capabilities library
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 20364
+Filename: libev_4.22-1_mips_siflower.ipk
+Size: 21129
+SHA256sum: 19f6560163405fd88080f5dda5becb06277f71960dccc6c89fe1541a1a64e83c
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libminiupnpc
+Version: 2.0.20170509-1
+Depends: libc
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 20107
+Filename: libminiupnpc_2.0.20170509-1_mips_siflower.ipk
+Size: 20798
+SHA256sum: e8338e6917524a88820efa87c0374ad658c59ab1d16fa39e8273750b3a06b0e8
+Description:  Lightweight UPnP library
+
+Package: libnatpmp
+Version: 20150609-1
+Depends: libc
+License: BSD-3c
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 3348
+Filename: libnatpmp_20150609-1_mips_siflower.ipk
+Size: 4272
+SHA256sum: 63ca56a1e49348fdad8a2c3839d50e9f1b29741e6514160e3e56c7fc0c77bd5b
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 90257
+Filename: libpcre_8.41-2_mips_siflower.ipk
+Size: 91034
+SHA256sum: 7547235923017c25c55918d68d510db602ff054eda8409e4b69460a7533354fb
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 136924
+Filename: libsodium_1.0.16-1_mips_siflower.ipk
+Size: 137998
+SHA256sum: 7eb6176646ac76f22cdb2ce013ce01b9b3d2bf3777e867ca6a0e0a557980e066
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 18140
+Filename: libudns_0.4-1_mips_siflower.ipk
+Size: 18899
+SHA256sum: e3a5a9a3081a8a483a03255d8873cdb4f81c56076636f6d3722fa2a3db95ae60
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: zerotier
+Version: 1.10.2
+Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
+License: BSL 1.1
+Section: net
+Architecture: mips_siflower
+Installed-Size: 514608
+Filename: zerotier_1.10.2_mips_siflower.ipk
+Size: 514305
+SHA256sum: 4eb2afe64009490e77f4d2b75f79561eb28fc02b812274f11e64e6092ade7c35
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+

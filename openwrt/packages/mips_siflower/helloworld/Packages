@@ -1,0 +1,122 @@
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+License: AGPL-3.0-only
+Section: net
+Architecture: mips_siflower
+Installed-Size: 17466
+Filename: chinadns-ng_1.0-beta.25-1_mips_siflower.ipk
+Size: 18246
+SHA256sum: c0819c375e09a0994b7e820ee2ab189af0ed5090cac5af1e1f232146ca13aeca
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: mips_siflower
+Installed-Size: 11551
+Filename: dns2socks_2.1-2_mips_siflower.ipk
+Size: 12350
+SHA256sum: e58360b9179f9537a367af464cda2c16819f4c857529e41b485f74badb0d3e08
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: mips_siflower
+Installed-Size: 12304
+Filename: dns2tcp_1.1.0-1_mips_siflower.ipk
+Size: 13061
+SHA256sum: 8205e804138c299d676d0065ffdec8724bd8f35b6adc788d0fac67b8cb53862e
+Description:  utility to convert dns query from udp to tcp
+
+Package: lua-neturl
+Version: 1.1-1-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 4534
+Filename: lua-neturl_1.1-1-1_all.ipk
+Size: 5313
+SHA256sum: 58d78ff5337a5463a20b4febb44c32ad3d59c2d165d8425de517b7e7b30294f7
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-ssr-plus
+Version: 186-7
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core, chinadns-ng
+Section: luci
+Architecture: all
+Installed-Size: 197461
+Filename: luci-app-ssr-plus_186-7_all.ipk
+Size: 197536
+SHA256sum: 8fad654a2f7f32ca6411702597741a69b89538f36bce3dc06933e8bc4bf4c841
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 186-7
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 7232
+Filename: luci-i18n-ssr-plus-zh-cn_186-7_all.ipk
+Size: 8066
+SHA256sum: de4c245bc321c18cfb10a45dd7605146d324ab659cd08794121439dd5f28925c
+Description:  Translation for luci-app-ssr-plus - 中文 (Chinese)
+
+Package: microsocks
+Version: 1.0.3
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: mips_siflower
+Installed-Size: 5602
+Filename: microsocks_1.0.3_mips_siflower.ipk
+Size: 6376
+SHA256sum: e71644fa26877dc0f7075d10885f2aeef25504884a9a45c182eae641e6e8cdb0
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 2485
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mips_siflower.ipk
+Size: 3202
+SHA256sum: 37fe714189950e2cb216712be13550b344eb7de6ac61e43dd7ee349290fb77dd
+Description:  shadowsocksr-libev ssr-check
+
+Package: tcping
+Version: 0.3
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: mips_siflower
+Installed-Size: 3584
+Filename: tcping_0.3_mips_siflower.ipk
+Size: 4252
+SHA256sum: 5b289754d5cea67bff75524a15205e815a013a3a21b8105bf201ed7afe288786
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.6.5-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: mips_siflower
+Installed-Size: 8320505
+Filename: xray-core_1.6.5-1_mips_siflower.ipk
+Size: 8303417
+SHA256sum: 5553d33d3a7caaf39feac5bc9cb9adc8d983111f5cefe3c2fd256358b6db2af7
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
